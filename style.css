@@ -1,0 +1,123 @@
+
+
+
+.header{
+height: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.2),
+rgba(0,0,0,0.2)),
+url("https://cdn.kimkim.com/files/a/content_articles/featured_photos/897c1fab01ff5ebb3a4b370d52efac89f6c83f37/big-c6fe29388e86817077d33f3bdbba7ed8.jpg");
+background-size: cover; 
+background-position: center;
+background-attachment: fixed;
+padding-top: 20px;
+padding-right: 20px;
+text-align: center;
+color: white;
+
+
+}
+
+.login{
+width: 100px;
+padding: 8px 0;
+outline: none !important;
+border: 2px solid white;
+border-radius: 50px;
+background: transparent;
+color: white;
+float: right;
+
+}
+.signup{
+width: 100px;
+padding: 8px 0;
+outline: none !important;
+border: 2px solid white;
+border-radius: 50px;
+background: transparent;
+color: white;
+float: right;
+margin: 0 5px;
+
+}
+
+.header h1{
+padding-top: 200px;
+padding-bottom:0;
+font-size: 55px;
+}
+.header p {
+margin: 18px 0;
+}
+
+.sights h1 {
+margin : 100px auto;
+text-align: center;
+font-size: 40px;
+max-width: 600px;
+position: relative;
+
+
+}
+.sights h1:before{
+content: "";
+display: block;
+width: 200px;
+height: 2px;
+background: black;
+position: absolute;
+left: 0;
+top: 50%;
+z-index: -2;
+}
+
+.sights h1:after{
+content: "";
+display: block;
+width: 200px;
+height: 2px;
+background: black;
+position: absolute;
+right: 0;
+top: 50%;
+z-index: -2;
+
+}
+
+span{
+background: white;
+}
+
+.sights{
+padding: 100px 0;
+}
+
+.sightsbox img{
+width: 100%;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+}
+
+.sightsbox img: hover{
+transform: scale(1.1);
+}
+
+.sightsbox h4{
+width: 200px;
+color:white;
+text-shadow: -4px 4px 4px black;
+font-weight: 600;
+position: absolute;
+top:50%;
+left: 50%;
+
+
+}
+
+
+.sightsbox{
+position: relative;
+margin-bottom: 30px;
+
+}
